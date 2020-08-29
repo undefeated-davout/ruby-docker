@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  app:
+    #build: .
+    image: teruzoufox/ruby-docker
+    container_name: ruby-docker.app
+    tty: true
+    volumes:
+      - ./share:/share
+
